@@ -1,11 +1,3 @@
-html.light {
-  @apply bg-background text-foreground;
-}
-
-html.dark {
-  @apply bg-foreground text-background;
-}
-
 #logos path {
   stroke-dashoffset: 1px;
   stroke-dasharray: 0 30px;
