@@ -6,9 +6,9 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@unocss/nuxt',
     '@pinia/nuxt',
-    '@nuxtjs/color-mode',
     '@vite-pwa/nuxt',
     '@nuxt/eslint',
+    '@nuxt/ui',
   ],
   experimental: {
     // when using generate, payload js assets included in sw precache manifest
