@@ -1,7 +1,7 @@
-<template>
-  <svg id="logos" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path
-      stroke="primary 2" fill-none
+      stroke-width="2"
+      stroke="#42b883" fill="none"
       stroke-linecap="square"
       d="
         M3 6 C8 0 16 12 21 6
@@ -10,4 +10,3 @@
       "
     />
   </svg>
-</template>
