@@ -1,0 +1,7 @@
+html.light {
+  @apply bg-background text-foreground;
+}
+
+html.dark {
+  @apply bg-foreground text-background;
+}
