@@ -4,7 +4,6 @@ import { appDescription } from './constants/index'
 export default defineNuxtConfig({
   modules: [
     '@vueuse/nuxt',
-    '@unocss/nuxt',
     '@pinia/nuxt',
     '@vite-pwa/nuxt',
     '@nuxt/eslint',
@@ -19,7 +18,6 @@ export default defineNuxtConfig({
   },
 
   css: [
-    '@unocss/reset/tailwind.css',
     '~/assets/css/global.css',
   ],
 
@@ -73,6 +71,18 @@ export default defineNuxtConfig({
   eslint: {
     config: {
       standalone: false,
+    },
+  },
+
+  tailwindcss: {
+    config: {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#42b883',
+          },
+        },
+      },
     },
   },
 })
