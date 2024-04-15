@@ -18,7 +18,7 @@ const isOpen = ref(false)
     <!-- 桌面和平板 -->
     <ul class="hidden sm:flex gap-x-4">
       <li v-for="item of nav" :key="item.to" class="relative">
-        <NuxtLink class="hover:text-primary before:transition-all before:contents-[''] before:absolute before:h-0.5 before:w-0 before:bg-primary-700 before:-bottom-1 hover:before:w-full" active-class="text-primary" :to="item.to">
+        <NuxtLink class="hover:text-primary before:transition-all before:contents-[''] before:absolute before:h-0.5 before:w-0 before:bg-primary-700 before:-bottom-1 hover:before:w-full" active-class="text-primary before:w-full" :to="item.to">
           {{ item.title }}
         </NuxtLink>
       </li>
