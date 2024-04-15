@@ -74,15 +74,7 @@ export default defineNuxtConfig({
     },
   },
 
-  tailwindcss: {
-    config: {
-      theme: {
-        extend: {
-          colors: {
-            primary: '#42b883',
-          },
-        },
-      },
-    },
+  ui: {
+    icons: ['carbon'],
   },
 })
