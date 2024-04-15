@@ -1,11 +1,3 @@
-/* html.light {
-  @apply text-gray-950 bg-green-100;
-}
-
-html.dark {
-  @apply bg-green-950 text-gray-50;
-} */
-
 @media (prefers-reduced-motion: reduce) {
   path {
     animation: none !important;
